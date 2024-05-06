@@ -1,0 +1,8 @@
+name: CTStock
+version: 1.0 #'${project.version}'
+main: me.msicraft.ctstock.CTStock
+api-version: '1.20'
+depend: [CTCore, CTPlayerData]
+commands:
+  주식:
+    description: Stock main command

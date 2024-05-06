@@ -1,0 +1,7 @@
+# 1. finalPrice = <price> * ( <0~BaseValuePercent%> * <주식갯수차이>(+ or -) )
+
+StockSettings:
+  StockValueUpdateTicks: 36000 # 20틱 = 1초, 36000틱 = 30분
+  BaseValueMaxPercent: 0.05
+  MaxIncreaseValue: 0.2 # 20%, 0~1
+  MaxDecreaseValue: 0.2 # 20%, 0~1
