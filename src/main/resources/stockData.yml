@@ -1,3 +1,9 @@
 StockCompanyInfo:
-  test:
+  test: #InternalName
     DisplayName: "dd"
+    BeforePrice: 0
+    Price: 0
+    StockQuantity: 0
+    UpdateCount: 0
+    MaxPrice: 0
+    MinPrice: 0

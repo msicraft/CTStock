@@ -55,6 +55,8 @@ public final class CTStock extends JavaPlugin {
     public void reloadVariables() {
         reloadConfig();
         stockDataFile.reloadConfig();
+
+        stockManager.reloadVariables();
     }
 
     private void createConfigFiles() {
