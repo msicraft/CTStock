@@ -104,10 +104,12 @@ public final class CTStock extends JavaPlugin {
 
     private boolean setupEconomy() {
         if (getServer().getPluginManager().getPlugin("Vault") == null) {
+            System.out.println("Vault is null");
             return false;
         }
         RegisteredServiceProvider<Economy> rsp = getServer().getServicesManager().getRegistration(Economy.class);
         if (rsp == null) {
+            System.out.println("Economy rsp is null");
             return false;
         }
         economy = rsp.getProvider();
