@@ -83,12 +83,19 @@
       <dependency>
           <groupId>com.github.msicraft</groupId>
           <artifactId>CTCore</artifactId>
-          <version>master-SNAPSHOT</version>
+          <version>master-89f3206da1-1</version>
+          <scope>provided</scope>
       </dependency>
       <dependency>
           <groupId>com.github.msicraft</groupId>
           <artifactId>CTPlayerData</artifactId>
-          <version>master-SNAPSHOT</version>
+          <version>master-7c12336a15-1</version>
+          <scope>provided</scope>
+      </dependency>
+      <dependency>
+          <groupId>com.github.MilkBowl</groupId>
+          <artifactId>VaultAPI</artifactId>
+          <version>1.7</version>
           <scope>provided</scope>
       </dependency>
   </dependencies>

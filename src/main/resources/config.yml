@@ -4,3 +4,4 @@ StockSettings:
   MaxIncreaseValue: 0.2
   MaxDecreaseValue: 0.2
   StockDiffPerValue: 0.0001
+  StockPurchaseLimit: -1
